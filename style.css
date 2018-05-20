@@ -1,0 +1,141 @@
+body{
+    font-family: gisha;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-weight: normal;
+}
+.thumbnails{
+    width:1000px;
+    margin: auto;
+}
+.thumbnail{
+    display: inline-block;
+    width: 200px;
+    padding: 0;
+    border-radius: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-bottom: 2%;
+    margin-left: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    display: block;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modelimg{
+    
+    display: inline-block;
+    width: 100%;
+    margin-top:5%;
+    border-radius: 10px;
+}
+.img-canvas{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background: rgb(58, 53, 53);
+    border-radius: 10px;
+}
+.arrow-left, .arrow-right{
+
+    text-align: center;
+    font-size: 50px;
+    border-radius: 10px;
+    height: 50px;
+    padding: 10;
+    cursor: pointer;
+    color: #fefefe;
+    font-family: monospace;
+}
+
+.toggleslideshow {
+    height: 30px;
+    background: rgb(255, 255, 255);
+    color: rgb(6, 6, 6);
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    margin: 12px;
+    margin-left: 50px;
+}
+.toggleslideshow:hover{
+    background: rgb(6, 6, 6);
+    color:  rgb(255, 255, 255);
+}
+nav{
+    background: #000;
+    height:40px;
+}
+li{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    line-height: 40px;
+    display: inline-block;
+}
+li>a{
+    width: 70px;
+    height: 40px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+li:hover{
+    background: #fefefe;
+    color: black;
+}
+li>a:hover{
+
+    color: black;
+}
+/* td.arrow-left{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+td.arrow-right{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.arrow-left{
+    border-radius: 50px;
+} */
+
